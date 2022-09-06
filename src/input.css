@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu li {
+	@apply pt-6 hover:text-turquoise;
+}
+
+.showMenu {
+	transform: translateX(0);
+}
