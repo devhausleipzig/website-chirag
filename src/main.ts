@@ -9,9 +9,11 @@ const menuIcon = document.querySelector("#icon-before") as HTMLElement;
 
 menuIcon.addEventListener("click", () => {
 	menu.classList.toggle("showMenu");
+	document.body.style.overflowY = "hidden";
 });
 closeIcon.addEventListener("click", () => {
 	menu.classList.toggle("showMenu");
+	document.body.style.overflowY = "visible";
 });
 
 ///////Piano Keys////////////
